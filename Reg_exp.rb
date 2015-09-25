@@ -3,5 +3,6 @@
 
 #ok here is my first example really simplistic but it satrts with this i guess
 #this one tells us that they both contain the same exact thing 
-/abc/ == /abc/ 
+/abc/ == /abc/  #which will return true
+/abc/ != /abc/  #which returns false
   
