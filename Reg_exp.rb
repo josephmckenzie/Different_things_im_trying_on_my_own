@@ -5,4 +5,7 @@
 #these ones tells us that they both match or dont match 
 /abc/ == /abc/  #which will return true
 /abc/ != /abc/  #which returns false
+
+#the line below does the samething as to_s which converts it to a string
+/hello_guys_this_will_return_a_string/.inspect 
   
