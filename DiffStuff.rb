@@ -8,4 +8,18 @@
 
 #the line below does the samething as to_s which converts it to a string
 /hello_guys_this_will_return_a_string/.inspect 
+
+#Modules 
+
+module RetryMessages
+    def RetryMessages.message1()
+        puts "That was an incorrect Choice... Try again man "
+    end
+	MESSAGE2 = "Man you messed up TRY again "
+	MESSAGE3 = "This is the 3rd rety message"
+	end
   
+# To call(or bring up the message)
+
+puts RetryMessages.message1 #prints the firstmessage (message1)
+or RetryMessages::MESSAGE2 #prints the 2nd message (MESSAGE2)
