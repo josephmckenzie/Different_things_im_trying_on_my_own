@@ -23,3 +23,6 @@ module RetryMessages
 
 puts RetryMessages.message1 #prints the firstmessage (message1)
 or RetryMessages::MESSAGE2 #prints the 2nd message (MESSAGE2)
+
+retrymsg = {'message1' => "You Screwed up try again!"}
+puts retrymsg['message1'] #prints message1
